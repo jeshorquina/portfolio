@@ -1,3 +1,10 @@
+footer {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    bottom: 0px;
+    margin: 100% 0px 0px 0px;
+}
+
 #navbar {
     display: inline-block;
     padding: 0px 0px 20px 0px;
