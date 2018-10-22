@@ -1,0 +1,118 @@
+#navbar {
+    display: inline-block;
+    padding: 0px 0px 20px 0px;
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    top: 93%;
+    z-index: 1;
+}
+
+#navbar a {
+    color:  #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: ;
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    position: relative;
+}
+
+#navbar a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#navbar a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+#header {
+    background-image: linear-gradient(to right, #ffb3b3, #99d6ff);
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#articles {
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#social-media {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#about-me {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7%;
+}
+
+#container {
+    margin-top: 100vh;
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px 15px 10px 15px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.header-description {
+    color: #f2f2f2;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+.portfolio-logo {
+    width: 25%;
+    opacity: 0.8;
+    margin: 10% 0px 0px 25px;
+}
+
+.portfolio-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+    letter-spacing: 4px;
+    margin: 0px;
+    color: #f2f2f2;
+}
+
+.section-title {
+    text-transform: lowercase;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-content {
+    padding: 5px 10px 5px 20px;
+}
