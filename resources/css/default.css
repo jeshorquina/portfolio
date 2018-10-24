@@ -67,17 +67,14 @@ footer {
     display: block;
     width: 100%;
     height: 100%;
-    position: auto;
 }
 
 #social-media {
-    position: relative;
     width: 100%;
     height: auto;
 }
 
 #about-me {
-    position: absolute;
     width: 100%;
     height: auto;
     padding-bottom: 7%;
